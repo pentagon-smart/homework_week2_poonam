@@ -7,8 +7,12 @@ import java.util.Scanner;
  */
 
 public class Programme12 {
+    public static Scanner obj = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner obj = new Scanner(System.in);
+        myMethod();
+    }
+
+    public static void myMethod(){
         System.out.println("Enter Value1");
         double a = obj.nextDouble();
         System.out.println("Enter Value2");

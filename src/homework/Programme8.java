@@ -6,8 +6,12 @@ import java.util.Scanner;
  * Write a program to calculate the area of a triangle.
  */
 public class Programme8 {
+    public static Scanner obj = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner obj = new Scanner(System.in);
+        myMethod();
+    }
+
+    public static void myMethod(){
         System.out.println("Enter Base Value");
         float b = obj.nextFloat();
         System.out.println("Enter Height Value");

@@ -5,9 +5,12 @@ import java.util.Scanner;
  * Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.
  */
 public class Programme18 {
+    public static Scanner obj = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner obj = new Scanner(System.in);
+        myMethod();
+    }
 
+    public static void myMethod(){
         System.out.print("Input first number: ");
         int num1 = obj.nextInt();
 

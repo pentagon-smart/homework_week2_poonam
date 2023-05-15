@@ -7,6 +7,9 @@ import java.util.Scanner;
  */
 public class Programme13 {
     public static void main(String[] args) {
+        myMethod();
+    }
+    public static void myMethod(){
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter First Number");
         int a = obj.nextInt();

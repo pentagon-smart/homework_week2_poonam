@@ -8,9 +8,13 @@ import java.util.Scanner;
  */
 
 public class Programme6 {
+    public static Scanner obj = new Scanner(System.in);
     public static void main(String[] args) {
+        myMethod();
+    }
+
+    public static void myMethod(){
         System.out.print("Enter any radius value of circle: ");
-        Scanner obj = new Scanner(System.in);
         Double radius = obj.nextDouble();
 
         Double area = Math.PI * radius * radius;

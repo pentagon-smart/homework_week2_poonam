@@ -7,17 +7,16 @@ import java.util.Scanner;
  * Write a Java program to add two binary numbers.
  */
 public class Programme16 {
-
-    private static Scanner sc = new Scanner(System.in);
-    ;
+    private static Scanner obj = new Scanner(System.in);
 
     public static void main(String[] args) {
-
-
+    myMethod();
+    }
+    public static void myMethod(){
         System.out.println("Input first binary number: ");
-        String b1 = sc.nextLine();
+        String b1 = obj.nextLine();
         System.out.println("Input second binary number: ");
-        String b2 = sc.nextLine();
+        String b2 = obj.nextLine();
 
         int num1 = Integer.parseInt(b1, 2);
         int num2 = Integer.parseInt(b2, 2);

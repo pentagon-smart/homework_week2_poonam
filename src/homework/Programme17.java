@@ -8,8 +8,11 @@ import java.util.Scanner;
 
 
 public class Programme17 {
+    public static Scanner obj = new Scanner(System.in);
     public static void main(String args[]) {
-        Scanner obj = new Scanner(System.in);
+        myMethod();
+    }
+    public static void myMethod(){
         System.out.println("Input a Decimal Number");
         int dec = obj.nextInt();
 

@@ -7,9 +7,12 @@ import java.util.Scanner;
  * multiplication table up to 10.
  */
 public class Programme10 {
+    public static Scanner obj = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner obj = new Scanner(System.in);
+        myMethod();
+    }
 
+    public static void myMethod(){
         System.out.print("Input a number: ");
         int num1 = obj.nextInt();
 
